@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: black;
+            color: white;
+        }
+        h2 {
+            color: white;
+            animation: neon 5s infinite;
+        }
+        @keyframes neon {
+            0%, 39%, 41%, 59%, 61%, 100% {
+                text-shadow: white 0 0 12px,
+                orange 0 0 24px,
+                orangered 0 0 36px;
+            }
+            40%, 60% {
+                text-shadow: none;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Neon Text Effect</h1>
+    <h2>Flashing Neon Light</h2>
+</body>
+</html>
